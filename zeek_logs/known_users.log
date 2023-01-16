@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	known_users
+#open	2023-01-16-09-47-41
+#fields	_path	_system_name	_write_ts	_node	ts	duration	kuid	host_ip	remote_ip	user	protocol	num_conns	annotations	last_active_session	last_active_interval
+#types	string	string	time	string	time	interval	string	addr	addr	string	string	count	vector[string]	string	interval
+known_users	forensics01	1673822861.600422	proxy-1	1673821937.960461	0.000000	KfpUkz464aen7	172.16.10.12	165.227.50.129	NFURY	FTP	1	(empty)	(empty)	0.000000
+known_users	forensics01	1673822861.600422	proxy-1	1673821945.936685	0.000000	KfpUkz464aen7	172.16.10.12	182.18.174.155	STARK-RESEARCH-LABS.COM	FTP	1	(empty)	(empty)	0.000000
+known_users	forensics01	1673822861.600422	proxy-1	1673821937.848107	0.000000	KfpUkz464aen7	172.16.10.12	165.227.50.129	RSYDOW	FTP	1	(empty)	(empty)	0.000000
+known_users	forensics01	1673822861.600422	proxy-1	1673821897.331427	0.000000	KfpUkz464aen7	172.16.10.12	121.66.21.187	STARK-RESEARCH-LABS	FTP	1	(empty)	(empty)	0.000000
+known_users	forensics01	1673822861.600422	proxy-1	1673821937.929855	0.000000	KfpUkz464aen7	172.16.10.12	165.227.50.129	ANONYMOUS	FTP	1	(empty)	(empty)	0.000000
+known_users	forensics01	1673822861.600422	proxy-1	1673821908.855653	0.000000	KfpUkz464aen7	172.16.10.12	35.205.86.202	ANONYMOUS	FTP	1	(empty)	(empty)	0.000000
+#close	2023-01-16-10-00-00

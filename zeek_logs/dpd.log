@@ -1,0 +1,641 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2023-01-16-09-24-51
+#fields	_path	_system_name	_write_ts	_node	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	string	string	time	string	time	string	addr	port	addr	port	enum	string	string
+dpd	forensics01	1673821490.633393	worker-05	1673821490.633393	C4Ng3f4y5u5IkM7HNe	118.24.93.168	25249	144.121.9.222	80	tcp	HTTP	not a http request line
+dpd	forensics01	1673821899.815752	worker-04	1673821899.815752	C2gPsR1OlQCU65KY1l	58.215.75.210	1527	172.16.10.13	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+dpd	forensics01	1673821899.815886	worker-02	1673821899.815886	C1ZdkR3KBK3i5e1xW5	58.215.75.210	4150	172.16.10.13	80	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21588
+dpd	forensics01	1673822091.515170	worker-01	1673822091.515170	Cybyxr38eps0dfLse	172.16.5.25	56055	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822091.688733	worker-06	1673822091.688733	CEJtCl3xMy1vaSRPKg	172.16.6.11	64141	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822091.687792	worker-05	1673822091.687792	CJfuJk4PFTE8KThfyg	172.16.7.13	60085	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822091.422948	worker-08	1673822091.422948	CTupBADs6eBQf9pqk	172.16.7.11	53968	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 19359
+dpd	forensics01	1673822096.135256	worker-05	1673822096.135256	Cq5Kd924aKhLdf0Pv8	172.16.7.13	60129	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822099.271201	worker-01	1673822099.271201	Cg011j44GkeH7DSFL7	172.16.6.11	64194	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822099.326198	worker-06	1673822099.326198	CGwASe3QdXSVEj6mQ9	172.16.7.13	60595	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822100.756857	worker-02	1673822100.756857	CTN7db1nCaN4CI1lCi	172.16.7.13	61040	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822100.828377	worker-06	1673822100.828377	C87vDpu7RjfhEvALl	172.16.7.11	54117	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.851850	worker-06	1673822100.851850	CTEfXa2RbVir8kVeC	172.16.7.11	54119	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.851850	worker-06	1673822100.851850	C21bc82xCururA2ie	172.16.7.11	54122	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.851850	worker-06	1673822100.851850	CZP4tDrMQ4uWfDcIg	172.16.7.11	54111	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.851850	worker-06	1673822100.851850	CwJKQG1GBZumXNuIR8	172.16.7.11	54129	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.937683	worker-06	1673822100.937683	CUHpS44t3ed87MQXVj	172.16.7.11	54140	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 13461
+dpd	forensics01	1673822100.562140	worker-05	1673822100.562140	CVbCPj3cP3dHhWriT6	172.16.6.13	52226	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822100.823910	worker-05	1673822100.823910	CpiHoENCke5n0CyE	172.16.7.11	54108	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.826521	worker-05	1673822100.826521	ChEKdt1Y175JegnqG6	172.16.7.11	54126	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.833062	worker-05	1673822100.833062	CMIlCd3QLGLxpCqxIb	172.16.7.11	54123	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.833062	worker-05	1673822100.833062	CkYL8e24GvtlAUsFcc	172.16.7.11	54130	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.833062	worker-05	1673822100.833062	CBdtmw3aCqdsT1Gghe	172.16.7.11	54103	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.841932	worker-05	1673822100.841932	Cy3Y5g76hAZPw5S24	172.16.7.11	54106	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.841932	worker-05	1673822100.841932	C4mKp419DykSN2WJRa	172.16.7.11	54131	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.842817	worker-05	1673822100.842817	CQtZX91wN3gxxS3gKi	172.16.7.11	54113	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.855171	worker-05	1673822100.855171	CJsu8T3cklOsnKdEO3	172.16.7.11	54128	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.813913	worker-02	1673822100.813913	C8HVhK1UgWKdUeapUl	172.16.5.26	51382	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822100.820458	worker-02	1673822100.820458	ChvFsSHbnWovAja9f	172.16.7.11	54105	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.825094	worker-02	1673822100.825094	CjmYXxzBTaYZFrVp8	172.16.7.11	54114	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.829805	worker-02	1673822100.829805	CqY8cu4RQbDU1Vrm9k	172.16.7.11	54120	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.832961	worker-02	1673822100.832961	Cok3nf151FGC8C8938	172.16.7.11	54127	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822100.840912	worker-02	1673822100.840912	C0B3Th2MyAfFN6F1Uj	172.16.7.11	54110	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822101.887560	worker-06	1673822101.887560	Chpy2e3ntYcdyVI8Ui	172.16.5.21	52312	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822101.893971	worker-06	1673822101.893971	CN6s7c3Ywqqyic3Z1	172.16.7.13	61816	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822102.076921	worker-06	1673822102.076921	CQG9tt29iSJLdP4eg	172.16.7.14	57563	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822102.277142	worker-05	1673822102.277142	CVJkWQ3wrwoNKStpb4	172.16.6.12	50773	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822102.504204	worker-02	1673822102.504204	ChCQpH2V75w55hTJL9	172.16.6.12	50839	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822102.572267	worker-02	1673822102.572267	CVWark4NSSTEvQj2Hh	172.16.7.13	62333	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822102.137677	worker-07	1673822102.137677	CAGfHY310w1NEY9aac	172.16.6.15	49573	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822102.248096	worker-07	1673822102.248096	CVWNL53vgj5fnLpUZi	172.16.7.13	61861	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822102.407775	worker-07	1673822102.407775	CtzdVB1XYvkkKJTJod	172.16.7.11	54173	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 13461
+dpd	forensics01	1673822102.548898	worker-05	1673822102.548898	Cns1Ac27b2a40ynh6	172.16.6.11	64342	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 16690
+dpd	forensics01	1673822105.327937	worker-08	1673822105.327937	CTtb7T2jVCU8blKD29	172.16.7.13	62774	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822110.130023	worker-01	1673822110.130023	CYoiK03LbRkajfz1eb	172.16.7.13	62803	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822110.518615	worker-05	1673822110.518615	CeMgET2XJEx90k5qe7	172.16.5.26	52338	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822110.916642	worker-03	1673822110.916642	CEYlhV1uYdPD3I0Tl	172.16.7.13	63370	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822111.548551	worker-02	1673822111.548551	CSE8uQ5lv4Jk826th	172.16.7.13	63819	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822111.649123	worker-02	1673822111.649123	CV6bH8sciIFtiMGo2	172.16.5.20	52710	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822111.841765	worker-02	1673822111.841765	CJbDdc1x8zLhx6hvHj	172.16.7.11	54337	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 51515
+dpd	forensics01	1673822111.783924	worker-05	1673822111.783924	CTxmGI1Pw6E8iQSZBj	172.16.7.11	54328	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822111.966147	worker-03	1673822111.966147	CUVgaE1WSNyArdQxy4	172.16.6.11	64494	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822111.966147	worker-03	1673822111.966147	CPwNQ22UVq9MXxPNpc	172.16.7.13	64264	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822111.992333	worker-06	1673822111.992333	CbUKio2z1JRkU4q3eg	172.16.6.16	49831	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822113.057589	worker-01	1673822113.057589	CCX6xN3L8Vz8GkPoj6	172.16.5.21	52484	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822113.293165	worker-03	1673822113.293165	CZL9Gs3B8Rkav8Fzth	172.16.7.13	65475	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822112.765986	worker-07	1673822112.765986	CLmN0s4T3T6BW3OL4	172.16.7.16	59850	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822112.830691	worker-07	1673822112.830691	CaD4bteifUEYT4Rwd	172.16.7.13	64598	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822113.241860	worker-02	1673822113.241860	C1nSMM3MENHZJ7bTEh	172.16.7.13	65460	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822113.468070	worker-01	1673822113.468070	CwjH0MTaiRCLZFLQf	172.16.6.13	52829	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822113.981177	worker-01	1673822113.981177	COJmIS3UFaM8qKNkgh	172.16.6.11	64667	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822114.136565	worker-03	1673822114.136565	CZbBMS1XeFB2v7tLlc	172.16.7.13	49332	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822114.411735	worker-07	1673822114.411735	CQYD08ewr2oAzA6L6	172.16.6.11	64715	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 72
+dpd	forensics01	1673822114.468342	worker-05	1673822114.468342	CGXCDm4nAsbSdy2Mxf	172.16.6.14	59134	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822114.457327	worker-03	1673822114.457327	CVV7zrT9cvC3sCgnh	172.16.7.13	49378	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822114.725777	worker-03	1673822114.725777	CflCzp27LbOScln1l5	172.16.5.21	52559	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822114.761395	worker-03	1673822114.761395	CeLYCEJzkjhNuB54	172.16.7.13	49830	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822115.077238	worker-07	1673822115.077238	C7ubpb2LbsSkgkUSy8	172.16.7.11	54601	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 51515
+dpd	forensics01	1673822115.365122	worker-07	1673822115.365122	CTP6aUq2ujKjQHNIk	172.16.6.11	64756	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 30066
+dpd	forensics01	1673822116.210997	worker-05	1673822116.210997	CfUNoa4FA5YQDGefq	172.16.5.20	52925	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822116.224182	worker-05	1673822116.224182	CFtDmr2M2MP5JjzAfg	172.16.7.13	50938	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822117.081565	worker-05	1673822117.081565	CbTNuHgFNrlQEu8L9	172.16.6.14	59275	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822120.062799	worker-04	1673822120.062799	CamZwD1lq8U7wwCdB	172.16.6.14	59334	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822120.063779	worker-04	1673822120.063779	CamZwD1lq8U7wwCdB	172.16.6.14	59334	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822120.321919	worker-04	1673822120.321919	Ck7eM424Zcgb3gYGCg	172.16.7.15	59995	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822121.417872	worker-06	1673822121.417872	CpRTcU1EQKuPoyGD7g	172.16.5.25	56248	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822121.626754	worker-06	1673822121.626754	COtpoa1Eyt5Ytd42Y8	172.16.6.13	53206	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822121.960661	worker-06	1673822121.960661	C1KCYf3Jy1Nrv8F4R2	172.16.7.11	54751	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 32791
+dpd	forensics01	1673822121.628508	worker-04	1673822121.628508	CXQc2n28sWnk0EQRmj	172.16.7.13	52417	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822121.752084	worker-04	1673822121.752084	C7sXvX3ZRc4bbmLfHl	172.16.6.13	53250	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822122.247340	worker-06	1673822122.247340	CKekowr8przaVtp1c	172.16.7.13	52595	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822123.640213	worker-07	1673822123.640213	CTTyP6lPCdkR17JF3	172.16.5.21	52802	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822123.824735	worker-07	1673822123.824735	Cos8gY1aF3jg26hNTb	172.16.7.13	54884	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822123.824735	worker-07	1673822123.824735	CyvDTl34EfJ5j7QAYl	172.16.7.13	54887	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822123.950670	worker-07	1673822123.950670	CzeqLp21CnmEbOAuO9	172.16.7.14	58504	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822123.602957	worker-03	1673822123.602957	CVruOJ2Ay0u6id4x76	172.16.6.15	50386	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822123.602957	worker-03	1673822123.602957	Cq4qIVh74GeBg8q6a	172.16.6.11	65303	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822123.602957	worker-03	1673822123.602957	Cm4Igy1ApM8be7HGUb	172.16.7.13	54436	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822123.667629	worker-03	1673822123.667629	C0K1nV2XIE87wnfOa2	172.16.5.20	53131	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822123.524495	worker-06	1673822123.524495	CIziE64v3v6xF8339	172.16.7.12	54919	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822123.524495	worker-06	1673822123.524495	CcScEa15Rv1l2NATJb	172.16.7.11	54897	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 51515
+dpd	forensics01	1673822125.406668	worker-07	1673822125.406668	C0BGS82yupZPV7iYJ8	172.16.6.12	52090	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822125.383453	worker-03	1673822125.383453	CPPex634X679azjD4k	172.16.7.11	54942	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 51515
+dpd	forensics01	1673822125.831707	worker-03	1673822125.831707	CnyjJL2aG3zv5jdQ3j	172.16.7.13	55187	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822125.714519	worker-06	1673822125.714519	CgDNUl3xXoJTYizKP6	172.16.5.26	53073	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822125.815190	worker-06	1673822125.815190	Cdpmx62kptrklfoBLa	172.16.6.11	65351	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822130.802065	worker-04	1673822130.802065	CXBVgyXspDKHV96K1	172.16.6.16	50642	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822130.812652	worker-04	1673822130.812652	Colmfq1qac0nMyS0E9	172.16.6.11	49181	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 29556
+dpd	forensics01	1673822130.906023	worker-04	1673822130.906023	CtqQv44P5s4ajJvuL	172.16.7.13	57230	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822134.611018	worker-07	1673822134.611018	C1ku7q2HJKNX0I6IG9	172.16.7.13	60201	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822134.859738	worker-07	1673822134.859738	CemQE12hnGG12NnGu8	172.16.7.11	55324	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822138.283745	worker-02	1673822138.283745	CwiN1y1KRQccLu1T1h	172.16.7.12	56707	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822138.284998	worker-02	1673822138.284998	CwiN1y1KRQccLu1T1h	172.16.7.12	56707	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822138.286115	worker-02	1673822138.286115	Chg2c510dYWug874Vi	172.16.7.12	56708	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822138.287936	worker-02	1673822138.287936	C3xCkn2lYOgTO738yd	172.16.7.16	60986	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822138.294166	worker-02	1673822138.294166	CtepENSZVebBmnsTi	172.16.7.12	56713	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822138.296000	worker-02	1673822138.296000	CtepENSZVebBmnsTi	172.16.7.12	56713	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822138.286969	worker-07	1673822138.286969	C27HBl4q1kxQDuHxyk	172.16.7.12	56709	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822138.298444	worker-07	1673822138.298444	C27HBl4q1kxQDuHxyk	172.16.7.12	56709	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822138.283957	worker-01	1673822138.283957	CLxSSQ1u40wVhU9Lpj	172.16.7.12	56705	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822138.282203	worker-04	1673822138.282203	CMu2pq3TpcIrXr2TV3	172.16.7.12	56706	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822138.282759	worker-04	1673822138.282759	CMu2pq3TpcIrXr2TV3	172.16.7.12	56706	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822138.288678	worker-04	1673822138.288678	Ch2bRc1KyqRoQOpx26	172.16.7.12	56710	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822138.289039	worker-04	1673822138.289039	Ch2bRc1KyqRoQOpx26	172.16.7.12	56710	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822138.458364	worker-04	1673822138.458364	CTgM5Y35lffCwygdp4	172.16.7.13	60428	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822138.317717	worker-03	1673822138.317717	CyMk8eMJukbTapNz8	172.16.6.11	49479	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822138.410591	worker-03	1673822138.410591	CBQMi03a2jQ7RoeXle	172.16.6.11	49488	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822138.719711	worker-03	1673822138.719711	CRpfZhTsN0vancKfe	172.16.6.14	59889	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822138.786846	worker-02	1673822138.786846	CpZmjB0GNfBZIEFv2	172.16.7.13	60875	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822139.016084	worker-02	1673822139.016084	CN5NJ22IsyvuYGVV15	172.16.5.25	56531	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822139.340216	worker-07	1673822139.340216	CWKi8638l8bgcov7Ka	172.16.6.11	49635	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822139.593979	worker-07	1673822139.593979	C6bDAj2H1qQpI30Bv5	172.16.7.13	61810	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822139.124672	worker-04	1673822139.124672	CwrQWTOAzj1gh0uGh	172.16.7.11	55421	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 66
+dpd	forensics01	1673822139.483193	worker-04	1673822139.483193	CJAHBz3cjg1V687MP6	172.16.5.26	53569	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822139.750354	worker-03	1673822139.750354	Co3lFg2GYIbHu1qaLk	172.16.6.13	54448	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822139.786643	worker-03	1673822139.786643	CgZylKn6GLPsYi1lj	172.16.7.11	55539	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822139.934956	worker-03	1673822139.934956	CRRuty45vCaYW6hoLh	172.16.7.13	61853	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822139.914963	worker-02	1673822139.914963	CJ9otg2nCchZj15l24	172.16.6.11	49709	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822140.044987	worker-02	1673822140.044987	CnIm5e3yY6gTroLYLk	172.16.5.20	53582	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822139.630142	worker-07	1673822139.630142	C6MSWzwuaPWcepGV2	172.16.7.15	60188	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822140.190011	worker-04	1673822140.190011	Cx0CP36qREOBGvOR1	172.16.7.11	55605	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822140.437414	worker-04	1673822140.437414	CPOXo81Rl4ciqEu7tl	172.16.7.11	55631	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822140.286806	worker-03	1673822140.286806	CpB6r0314VOyL9Afx4	172.16.7.13	62323	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822140.598561	worker-03	1673822140.598561	CDxEbH1uIy1nw7uKC3	172.16.6.11	49890	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822140.718213	worker-03	1673822140.718213	CTVBop3o2V5BGVtOC5	172.16.7.13	63308	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822140.596250	worker-02	1673822140.596250	CxCW65JfIeVurHWze	172.16.7.13	62889	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822140.896923	worker-02	1673822140.896923	Cl1deg393AKPAP4Cp9	172.16.5.21	53320	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822141.320800	worker-02	1673822141.320800	C7K9ER267BeMwQo0df	172.16.7.11	55732	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822141.825561	worker-02	1673822141.825561	ChaZ6V37XQ6EFUNOhg	172.16.7.16	61342	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822142.275151	worker-02	1673822142.275151	Crxd4x33kENqPH7SRe	172.16.5.21	53394	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822142.351407	worker-02	1673822142.351407	CJdvse4OUKeQ7sA2bd	172.16.6.11	50197	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822142.351407	worker-02	1673822142.351407	CC7iNa47jrwyQCowI4	172.16.6.11	50200	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822142.362366	worker-02	1673822142.362366	C7Y7Km1cKEX5Gxw269	172.16.7.13	64320	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822142.097913	worker-08	1673822142.097913	C3usf1dNVDf7pTuR6	172.16.7.11	55763	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 51515
+dpd	forensics01	1673822142.379708	worker-08	1673822142.379708	CqIxGaFPO4az1vVnc	172.16.7.14	59454	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822142.551622	worker-08	1673822142.551622	CfRGJM13tMtWnjdvpd	172.16.6.12	53161	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822143.013727	worker-08	1673822143.013727	CROlC04sYveYtZYkA7	172.16.7.11	55796	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 51515
+dpd	forensics01	1673822142.683142	worker-02	1673822142.683142	CcgBs04hRECZv5vDWd	172.16.7.13	64767	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822142.683142	worker-02	1673822142.683142	CS1ZlI2pWM0KQjxM23	172.16.5.20	53751	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822143.287439	worker-02	1673822143.287439	CWeZvw2aNwpPt8I2ck	172.16.6.11	50323	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 26214
+dpd	forensics01	1673822143.310053	worker-02	1673822143.310053	CBVhTu1U21EczBpxL8	172.16.7.13	49250	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822143.869661	worker-08	1673822143.869661	C1yaSx4ZAtcGi0Zszl	172.16.7.13	49303	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822143.869661	worker-08	1673822143.869661	CmNQal44qJ7NpEeDs1	172.16.5.21	53478	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822143.757697	worker-02	1673822143.757697	C4hdwz1IFmrpBWd2B8	172.16.7.13	49295	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822144.296443	worker-02	1673822144.296443	C0d17o3wGV2Kzk9klb	172.16.6.14	60215	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822144.323209	worker-08	1673822144.323209	Cm22Re1JtT0x9Gr5ff	172.16.6.14	60193	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822144.359788	worker-08	1673822144.359788	CkZoOVPWAVXcLw9lf	172.16.7.13	49475	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822144.362878	worker-08	1673822144.362878	CkZoOVPWAVXcLw9lf	172.16.7.13	49475	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822144.528189	worker-08	1673822144.528189	C5BAhb2A5BV0OSkx84	172.16.7.11	55884	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822145.232771	worker-02	1673822145.232771	CA8nAy2ZhPvpxCx7al	172.16.6.11	50385	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822147.455330	worker-01	1673822147.455330	CG5RHM3CrcQ4WT0xk	172.16.7.13	50451	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822148.418135	worker-01	1673822148.418135	Co0eHA4WOqTKu3Gd6	172.16.6.13	55070	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822148.418493	worker-01	1673822148.418493	Co0eHA4WOqTKu3Gd6	172.16.6.13	55070	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822149.538951	worker-03	1673822149.538951	ClPBz237fazU3rc4X5	172.16.7.11	55961	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822150.271632	worker-03	1673822150.271632	CEXbbVYM9ARNOyFUb	172.16.6.11	50463	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822150.788359	worker-07	1673822150.788359	CJ7J054jesWGdgNa75	172.16.7.11	55969	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822150.332980	worker-04	1673822150.332980	CwFLThX69fhyDgnWa	172.16.7.13	50961	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822151.494634	worker-01	1673822151.494634	CvYdLe239rlHTW28Pe	172.16.6.11	50569	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822151.281750	worker-03	1673822151.281750	CZHoFy2bGX1dPIJ7el	172.16.6.13	55154	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822151.402149	worker-07	1673822151.402149	Cwjcvi4r9JRTfuNLk1	172.16.7.11	55993	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822151.725130	worker-07	1673822151.725130	Chyg5z1UqRPnRyI5yc	172.16.7.13	51691	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822151.602676	worker-04	1673822151.602676	CmX2CC1dOPz52LeIT2	172.16.7.11	56013	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822152.189303	worker-04	1673822152.189303	Csy4UXJw4bLezSbtd	172.16.7.13	52138	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822151.402728	worker-06	1673822151.402728	CYhtsr39jLpUAo1OTc	172.16.7.13	51242	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822151.707481	worker-06	1673822151.707481	C91fCq3wM48Rgi0t1b	172.16.6.11	50616	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822152.130843	worker-06	1673822152.130843	CGA5mxp3Pk1CwbAmf	172.16.7.12	58933	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822152.675437	worker-03	1673822152.675437	CsZprT28gm2oCFnDb6	172.16.6.11	50665	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822152.193279	worker-07	1673822152.193279	C8rudojZQ2RNnXPK2	172.16.7.16	61746	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822152.702491	worker-01	1673822152.702491	Cs65km1Vhhw8ZFQ0ad	172.16.7.13	52434	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822152.984330	worker-01	1673822152.984330	CJ7L8p4YQ94fzkXyB8	172.16.7.13	52880	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822153.531148	worker-01	1673822153.531148	CZvcs730L4NvQ1DEal	172.16.7.11	56174	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 57
+dpd	forensics01	1673822153.500411	worker-07	1673822153.500411	CzNFHB34ouFakWDQDe	172.16.6.11	50762	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822153.500726	worker-07	1673822153.500726	CzNFHB34ouFakWDQDe	172.16.6.11	50762	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822153.665590	worker-04	1673822153.665590	CAbQio3ZzRGvfJJm6e	172.16.6.11	50772	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 11849
+dpd	forensics01	1673822153.674044	worker-01	1673822153.674044	Cphnfg3qsI2RMZyUXd	172.16.7.13	53382	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822153.969669	worker-03	1673822153.969669	CgkBYA1NRwxuROWWP3	172.16.6.14	60493	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822154.473706	worker-03	1673822154.473706	CeI45iZyuSeR0cZ28	172.16.7.13	54061	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822154.369947	worker-07	1673822154.369947	CjEOPn4cf3x5hsSkti	172.16.7.15	60379	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822154.445701	worker-07	1673822154.445701	CvmCS01YanmIJ300o	172.16.6.11	50879	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 30066
+dpd	forensics01	1673822154.953136	worker-08	1673822154.953136	C0nn7I2PrV9pjim7x5	172.16.6.13	55597	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822155.017246	worker-08	1673822155.017246	CV6gPy3VjXZtLcpnWc	172.16.7.11	56344	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 50
+dpd	forensics01	1673822154.756062	worker-05	1673822154.756062	CYVNpgiR6svVUvjK2	172.16.7.13	54516	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822154.347899	worker-04	1673822154.347899	C6zWet1vX6kYA11Fy5	172.16.7.11	56264	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822155.039747	worker-04	1673822155.039747	C54At02JWcS91zkxra	172.16.7.13	55052	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822155.458780	worker-03	1673822155.458780	Cjb4fG34joD7mQVHg1	172.16.5.21	53835	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822155.852186	worker-03	1673822155.852186	CB6CdU3tm0q9b8YTXh	172.16.6.13	55739	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822155.442112	worker-02	1673822155.442112	CjTy4XG0s8myZNC1a	172.16.7.13	55539	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822155.140945	worker-05	1673822155.140945	CUuxI63Gj0d4uhcyg3	172.16.7.13	55096	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822155.666900	worker-05	1673822155.666900	Cefwy42Sx9b5CwSXUb	172.16.5.20	54161	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822155.669033	worker-05	1673822155.669033	C7j3pr2UsZA8kBeRK8	172.16.7.11	56373	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 50
+dpd	forensics01	1673822155.821977	worker-04	1673822155.821977	C8G9Sh1NcaAwbrRrkl	172.16.6.11	50987	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 493
+dpd	forensics01	1673822155.957815	worker-03	1673822155.957815	C0Bi214LEMcw0LPqFa	172.16.7.13	55608	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822156.031506	worker-03	1673822156.031506	C6MNYz1LhTSWRKWC4h	172.16.5.26	54618	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822156.317064	worker-03	1673822156.317064	Ccr7US3NQO2ZNsdc4	172.16.7.13	56452	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822156.352027	worker-03	1673822156.352027	CxOgCG47LPLbXvSZc9	172.16.5.20	54209	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822156.351090	worker-05	1673822156.351090	COyLJt1nZAu4UdkVHg	172.16.5.21	53884	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822156.388725	worker-04	1673822156.388725	CD4viZ1PIRdREomudl	172.16.7.11	56456	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 32768
+dpd	forensics01	1673822156.610193	worker-04	1673822156.610193	C88dMO1JhYkH0n3uol	172.16.6.11	51095	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 30067
+dpd	forensics01	1673822156.745852	worker-04	1673822156.745852	CKgURA3HXSZUNBceIk	172.16.7.13	56498	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822157.186346	worker-04	1673822157.186346	C1fadV1Q9diQzOW2gd	172.16.7.13	57161	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822157.479023	worker-03	1673822157.479023	CTUzEl4RTlfGBRv1x3	172.16.6.11	51208	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 19553
+dpd	forensics01	1673822157.578938	worker-03	1673822157.578938	CNvD6q4x6VVdWSe8Kf	172.16.7.13	57637	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822157.851249	worker-03	1673822157.851249	CzeCGh0ir4WndrlQe	172.16.7.14	60410	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822157.851249	worker-03	1673822157.851249	CYrolP6f1uO9KyXe2	172.16.6.12	54482	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822157.534253	worker-05	1673822157.534253	CdFiC12JiZu1J1avO7	172.16.7.16	62243	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822158.061314	worker-05	1673822158.061314	CgxZGm400IZmRziOa6	172.16.7.13	58082	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822158.039016	worker-03	1673822158.039016	CiwZGv2ds8tj28euB4	172.16.6.14	60785	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822158.926295	worker-03	1673822158.926295	C3kJ5l7kk3u0v9OA6	172.16.6.13	56162	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822158.631678	worker-05	1673822158.631678	CI7vpc1ZzfhM3EVkK6	172.16.7.11	56565	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822158.631678	worker-05	1673822158.631678	CJu9yD1YbtvEB63rc8	172.16.7.13	58257	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822158.731893	worker-05	1673822158.731893	CL54u04mETAFDRkoPg	172.16.6.11	51265	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 19877
+dpd	forensics01	1673822158.737053	worker-05	1673822158.737053	CG9hnC2lSk62W4Samb	172.16.7.13	58281	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822159.015802	worker-05	1673822159.015802	CfgV3n2I9KFXOMCyJg	172.16.7.13	58725	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822159.545377	worker-03	1673822159.545377	C2UVKx2K2NXT8bdDxi	172.16.7.11	56590	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 51
+dpd	forensics01	1673822159.912214	worker-03	1673822159.912214	C2CKEO15nuBo3VZNNc	172.16.7.13	59799	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822159.623202	worker-05	1673822159.623202	Cpw8WW3dJ4eVUmoHkk	172.16.5.21	54039	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822159.648162	worker-05	1673822159.648162	CDUcEn2StJG6PdVJN8	172.16.6.11	51355	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822159.651740	worker-05	1673822159.651740	CzvafL30erhXYFvjta	172.16.7.13	59170	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822159.881320	worker-05	1673822159.881320	C3AEC412rDahHUYwr8	172.16.6.16	52282	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822159.935346	worker-05	1673822159.935346	CsNItu318v8cAz9Fvg	172.16.7.11	56615	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822160.861422	worker-05	1673822160.861422	CjvqZE3LtYX9MKuTR6	172.16.5.20	54452	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822160.902449	worker-05	1673822160.902449	CaIobo2b0l99hIWLlj	172.16.7.12	61607	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822160.977702	worker-05	1673822160.977702	CVJHo71RTzy6YhFtIc	172.16.7.11	56709	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822161.133688	worker-05	1673822161.133688	CKqUZI3GSDTMOHsLVl	172.16.7.11	56717	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822161.496864	worker-03	1673822161.496864	CCEWpd4gUSYVgociFa	172.16.6.11	51541	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822161.529969	worker-03	1673822161.529969	CFl2Qy2PKrmB0fHneb	172.16.7.13	60885	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822162.643879	worker-03	1673822162.643879	C9KcwF4LRYXlG7xYtk	172.16.7.13	61330	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822163.009225	worker-05	1673822163.009225	CZWmPV26V2NnZlAOi1	172.16.7.12	61730	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822163.009225	worker-05	1673822163.009225	CZWmPV26V2NnZlAOi1	172.16.7.12	61730	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822163.032676	worker-01	1673822163.032676	CSdSJc2myAXxUjPhDa	172.16.7.11	56958	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 46
+dpd	forensics01	1673822163.142966	worker-01	1673822163.142966	CFoccG1lZuMd4VUC4e	172.16.6.11	51738	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822163.295688	worker-01	1673822163.295688	CQ5JQD1THDfdGbKZ62	172.16.7.13	63498	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822163.473001	worker-01	1673822163.473001	CEUneGXVhdPzoXvi	172.16.7.13	64348	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822163.439847	worker-03	1673822163.439847	CDAB7P2dmOTuSFE30l	172.16.5.26	55291	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822163.467420	worker-03	1673822163.467420	CXynDw2uIov481z4s4	172.16.5.25	56905	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822164.378715	worker-03	1673822164.378715	CMeaOl1rweXhhIXcdb	172.16.7.13	63174	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822165.536769	worker-03	1673822165.536769	Cai7zxiGnYu9KwMR8	172.16.6.13	56899	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822165.547829	worker-03	1673822165.547829	Clq2GENvwbOW9ZKp6	172.16.6.11	51783	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822165.718822	worker-03	1673822165.718822	CIo9pm1tYqMSAIEdab	172.16.7.13	64788	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822166.257197	worker-02	1673822166.257197	CE1VPd3UzywORj35X6	172.16.7.13	50424	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822167.011895	worker-02	1673822167.011895	Cfjl4S2beI93xjBNnf	172.16.6.11	52142	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822167.011895	worker-02	1673822167.011895	C3xdyGqu4ILhPw0N5	172.16.7.13	50472	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822167.373406	worker-02	1673822167.373406	C5UkVX2sP4e2vY6Rlj	172.16.7.16	63139	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822167.373406	worker-02	1673822167.373406	C2JaS410Ff5TtmxXx3	172.16.7.13	51114	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822167.373406	worker-02	1673822167.373406	CUUGDy2fCv4Yb4nQhi	172.16.6.12	55861	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822167.373406	worker-02	1673822167.373406	ChKh5w2G2eoFZT2ag2	172.16.7.14	61352	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822167.373406	worker-02	1673822167.373406	C0VvXG1kvCY1bCVMd3	172.16.7.11	57322	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 54480
+dpd	forensics01	1673822170.121096	worker-08	1673822170.121096	ChkRfH3Dr8DT0bF6q1	172.16.7.11	57361	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822170.556679	worker-08	1673822170.556679	C61TMP3PpqrqI3kJDl	172.16.6.11	52302	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822170.736601	worker-08	1673822170.736601	CCGk6t3fdiMWj1v1fb	172.16.7.13	52263	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822171.651597	worker-08	1673822171.651597	CL2brd181TEciaosbf	172.16.7.13	52682	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822171.651597	worker-08	1673822171.651597	CL2brd181TEciaosbf	172.16.7.13	52682	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822172.094126	worker-08	1673822172.094126	CbsQdC1PhZF7Qb3nY6	172.16.5.21	54546	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822172.558859	worker-08	1673822172.558859	CPT7ds4yMUpD1ESL62	172.16.7.12	63962	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822173.077957	worker-08	1673822173.077957	CoMfX32XdLaNxDOf5f	172.16.7.13	53624	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822173.210719	worker-08	1673822173.210719	CRq27J3p36WUAqJhHe	172.16.5.20	55009	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822174.444532	worker-08	1673822174.444532	CHEXWp4yqLRNoStkmd	172.16.6.11	52433	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822174.515722	worker-08	1673822174.515722	Cji1Mb48kux8928Fxg	172.16.7.11	57480	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822175.149212	worker-06	1673822175.149212	CeVixE3uTaPCZ44U2d	172.16.6.14	61858	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822175.289838	worker-06	1673822175.289838	Cj2DMAaxwEYT1h7Pe	172.16.7.13	56268	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822175.585514	worker-06	1673822175.585514	CR9dR23Ou6HeODASqb	172.16.7.11	57632	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822181.008674	worker-04	1673822181.008674	CDExAW1x1ijweoPi2b	172.16.6.13	58092	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822181.252548	worker-04	1673822181.252548	CMI6dh4t1lxzqZviv8	172.16.5.20	55251	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822182.165017	worker-08	1673822182.165017	CqLhsP31pvrbIXVzVk	172.16.5.20	55304	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822183.541292	worker-01	1673822183.541292	CLXzYQ18yVrRlrF1fc	172.16.7.11	57882	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822183.709529	worker-03	1673822183.709529	CuDCvK3Fq3Cklj0bQl	172.16.7.13	59437	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822186.230361	worker-06	1673822186.230361	CmX1Af3Gk3fIJeYY84	172.16.7.13	59874	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822186.674130	worker-03	1673822186.674130	CUjfWZ2d8ljYzx84Z1	172.16.7.13	59894	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822186.680222	worker-03	1673822186.680222	Cx2tcE153qCiImX1S7	172.16.5.21	54917	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822187.500357	worker-03	1673822187.500357	C3F59W1g8TLzpd6chb	172.16.6.11	53006	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822187.506248	worker-03	1673822187.506248	C3F59W1g8TLzpd6chb	172.16.6.11	53006	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822187.908908	worker-02	1673822187.908908	CZA77FyW6UmMpD2Jg	172.16.7.11	57908	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 24931
+dpd	forensics01	1673822190.225260	worker-01	1673822190.225260	Cckxru4hi3ppV0bdRg	172.16.7.11	57987	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822190.282442	worker-01	1673822190.282442	CLRYm12vRn14nFzm4j	172.16.7.13	61007	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822190.717624	worker-03	1673822190.717624	C348ub2huBlgfQS2bl	172.16.7.11	58006	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822190.730941	worker-03	1673822190.730941	CMfvY41UUHdAH5C6hg	172.16.6.11	53116	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 1635
+dpd	forensics01	1673822190.766229	worker-03	1673822190.766229	CrhQwu4ezHznzX6tS8	172.16.7.13	61457	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822191.277587	worker-03	1673822191.277587	CrbIvd3fLfeO2NFNVk	172.16.7.14	62293	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822191.766730	worker-03	1673822191.766730	CrCkhydHuCunliDW8	172.16.7.11	58093	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 21319
+dpd	forensics01	1673822192.408079	worker-03	1673822192.408079	Cwc3Q62Z5ZlxqMo42f	172.16.7.11	58110	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822192.439358	worker-03	1673822192.439358	C722io2HAy3NP0waRb	172.16.7.16	64150	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822192.566636	worker-03	1673822192.566636	CWJSHN2T6cunFAGWmb	172.16.7.13	62655	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822193.425698	worker-03	1673822193.425698	CWDWpd2KnxfETNt4u6	172.16.7.11	58133	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822194.386805	worker-03	1673822194.386805	C89lyT3adCKqFjG30f	172.16.5.20	55566	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822194.327770	worker-07	1673822194.327770	C87ZPly1Ek1dtPqkb	172.16.7.13	64188	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822194.718740	worker-07	1673822194.718740	Cke2TA3kQUHEOoHiha	172.16.7.11	58317	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822195.147613	worker-07	1673822195.147613	CF0AzY2Tpb43tTHSl7	172.16.7.13	65221	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822195.434522	worker-07	1673822195.434522	CpVbmn19i0FccGtkqa	172.16.6.11	53492	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 1381
+dpd	forensics01	1673822195.463760	worker-07	1673822195.463760	CpL8Bn2LHlGuq9tGV2	172.16.7.13	49284	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822195.736303	worker-07	1673822195.736303	CGANWi46kBAJlI1c8f	172.16.6.13	59076	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822195.736303	worker-07	1673822195.736303	CJeNXa1Crh2BGPpiO5	172.16.6.13	59079	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822195.893574	worker-07	1673822195.893574	CGEMuS3yrwAzwJng5h	172.16.5.26	56817	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822196.095738	worker-07	1673822196.095738	CyVcRa1vkwwzNcgXyj	172.16.7.11	58422	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822196.290839	worker-06	1673822196.290839	Cltjqf1DqZzb6VXPY8	172.16.7.13	49809	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822197.031469	worker-06	1673822197.031469	C1uwog1GXJBhXpfTgc	172.16.6.11	53690	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 33213
+dpd	forensics01	1673822196.713205	worker-07	1673822196.713205	CsfZAI3mWQ3pQ0ZG37	172.16.7.13	50399	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822196.879792	worker-07	1673822196.879792	CbTEsp4QBuuFSVkPOg	172.16.6.13	59191	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822196.971146	worker-07	1673822196.971146	Crx0a51wuabRZVpnsh	172.16.7.11	58465	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822197.181095	worker-07	1673822197.181095	CAPJHH3aUXdTIAFlf9	172.16.7.13	50844	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822199.076344	worker-01	1673822199.076344	CeEdxF4WAqcPwjxEc5	172.16.7.13	51314	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822200.686913	worker-01	1673822200.686913	CoO7bD4M8eSpl5ne6	172.16.6.11	53796	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 16752
+dpd	forensics01	1673822204.292980	worker-04	1673822204.292980	Cdbx562GHlW4ukzeyg	172.16.5.20	55867	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822204.349612	worker-05	1673822204.349612	CZaVM14jOCyqCwdQvb	172.16.7.13	51944	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822204.694096	worker-05	1673822204.694096	CRwwKN32MbkuNDmfs3	172.16.7.13	51965	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822205.185103	worker-05	1673822205.185103	CWvFjF1DaB1gQeF8r7	172.16.6.11	53896	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822205.015410	worker-04	1673822205.015410	CYrSDx23rblbs0wtMg	172.16.7.11	58621	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822205.527637	worker-04	1673822205.527637	CGRu5parLAx4kf0m4	172.16.7.11	58675	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822205.552568	worker-04	1673822205.552568	C28g684i1aAVz7tk93	172.16.7.11	58676	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822205.340411	worker-05	1673822205.340411	COs2zS1EvbJpMagvn9	172.16.7.13	52398	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822205.531117	worker-05	1673822205.531117	CqX6YkKYFSe2HlJw6	172.16.7.11	58677	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822205.991578	worker-04	1673822205.991578	CZYtVz13rnPh4MxVkg	172.16.7.11	58691	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822206.160363	worker-06	1673822206.160363	Cs2e3jmlPhGzaruBf	172.16.7.13	53029	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822207.243554	worker-08	1673822207.243554	CWxlNmhCs2V7Le22	172.16.7.16	64827	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822207.685448	worker-08	1673822207.685448	CMRfBQ1uXEgSwPKuq3	172.16.7.13	53947	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822208.670669	worker-08	1673822208.670669	CcVN4z4xO0yvyCGA39	172.16.7.11	58782	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 28526
+dpd	forensics01	1673822209.447286	worker-07	1673822209.447286	CA4vRAOvoSzuqqRYi	172.16.7.13	54330	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822210.148870	worker-07	1673822210.148870	C0jxZy18VdoK3cRKGb	172.16.6.12	58295	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822209.344483	worker-08	1673822209.344483	CvEQaE06qCqPQSiN8	172.16.6.11	54025	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822209.896746	worker-03	1673822209.896746	C3xCDT2K0SIMSrJ1B9	172.16.7.12	52531	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822211.085336	worker-07	1673822211.085336	Ccw6dE4y1QaVmyPpn1	172.16.5.26	57223	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822210.353977	worker-08	1673822210.353977	CbLwOc3auKh3DliQW	172.16.7.16	64923	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822210.453580	worker-08	1673822210.453580	CqOAa7139V4rRlqOwe	172.16.7.13	54793	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822210.538750	worker-08	1673822210.538750	CQf75PDSPed306Xfh	172.16.7.14	63230	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822210.653459	worker-08	1673822210.653459	CPkhyD4TIz2gj42P8	172.16.6.16	54702	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822210.967033	worker-03	1673822210.967033	CJLMFmRzj0ymtVVC2	172.16.5.21	55550	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822211.166509	worker-02	1673822211.166509	CT7m4I7vf1LKC06xe	172.16.7.11	58812	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822211.300277	worker-08	1673822211.300277	CyRe4OWBZQlXoYClb	172.16.6.11	54137	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 16752
+dpd	forensics01	1673822211.373191	worker-08	1673822211.373191	CPmbC91EA4te2nVkkb	172.16.7.13	55236	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822212.294409	worker-01	1673822212.294409	CFSdZK2uhVxzxisCud	172.16.7.13	55879	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822212.608825	worker-01	1673822212.608825	CXoJFn32eLclfhCgj4	172.16.7.11	58855	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 42496
+dpd	forensics01	1673822212.835909	worker-07	1673822212.835909	CeWRkxOwhmoRW0m6	172.16.7.13	55918	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822213.530011	worker-03	1673822213.530011	CdA8Ls4fY3qtvFLNjb	172.16.7.13	56386	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822214.036672	worker-07	1673822214.036672	Cla4bl38k3bllLQ3jj	172.16.5.20	56118	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822213.448133	worker-04	1673822213.448133	CMt7AE368lYchdGpah	172.16.7.15	61073	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822213.816331	worker-05	1673822213.816331	CNPhd64r7m48rP2DT4	172.16.5.25	57580	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822214.287520	worker-07	1673822214.287520	CUgoVX2c2vfkEodl0c	172.16.7.11	58943	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 105
+dpd	forensics01	1673822214.431229	worker-07	1673822214.431229	CxowGWcWtzo7zahU1	172.16.6.11	54243	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822214.388441	worker-05	1673822214.388441	C6e3A71CePLh2LJR7i	172.16.6.11	54241	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822214.538981	worker-05	1673822214.538981	CvZoQ243ioBdg0bOh	172.16.7.13	56831	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822216.157900	worker-06	1673822216.157900	CIAuyL1hN6LY0xzo7i	172.16.6.13	60023	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822217.058761	worker-07	1673822217.058761	COj0ip1GSvDXXCSNzi	172.16.5.20	56169	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822218.231974	worker-07	1673822218.231974	Cin0fx2ZfyJJCrWGQg	172.16.7.11	59020	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822218.306897	worker-05	1673822218.306897	C3etvL2j5IGS1AfpAg	172.16.6.11	54404	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 16752
+dpd	forensics01	1673822218.429784	worker-03	1673822218.429784	CzjIuJ3dmh7eEanVh3	172.16.7.13	57861	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822219.960931	worker-08	1673822219.960931	CWUm2bYU8y4G9VaHd	172.16.7.13	59378	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822220.605228	worker-08	1673822220.605228	Cq0Zwu4DVMqqNw6bk1	172.16.6.15	55320	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822220.663456	worker-08	1673822220.663456	CqLiTj234LFqDTR952	172.16.6.13	60452	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822220.938164	worker-08	1673822220.938164	CZv6Di13evCkzBYd1l	172.16.7.13	59868	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822219.976174	worker-02	1673822219.976174	CxyYzyqOYyk9WLnx2	172.16.6.11	54555	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 37408
+dpd	forensics01	1673822220.459913	worker-02	1673822220.459913	CfCD2H3GrH8wstJKYk	172.16.5.21	55861	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822220.517463	worker-02	1673822220.517463	C0E0Vl48Z5cvi8XtU2	172.16.7.13	59827	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822220.798153	worker-02	1673822220.798153	CjVQfX1TmLKZ52VS25	172.16.7.11	59216	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822220.837593	worker-02	1673822220.837593	ClT6L2rvaFP6UUoH3	172.16.6.11	54610	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822221.618255	worker-08	1673822221.618255	CYTeU124WU8DpItfUa	172.16.7.13	60466	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822221.743998	worker-08	1673822221.743998	CwJ3ej1khOeJCOHKTa	172.16.7.11	59245	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822221.875113	worker-08	1673822221.875113	CgcX7Y3jQV3pSrhr59	172.16.7.11	59270	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822224.753067	worker-04	1673822224.753067	CyKbms3Zm2cSJ8a73	172.16.7.13	64003	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822224.758930	worker-04	1673822224.758930	CVii8mYXfPQgPETc8	172.16.6.16	55491	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822225.519680	worker-04	1673822225.519680	CvBYvb4Og0OOTm5Dw1	172.16.7.13	64151	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822225.519680	worker-04	1673822225.519680	CPeJc94RENb57oPC5e	172.16.5.21	56082	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822225.684648	worker-04	1673822225.684648	CC8fFE3jvRYJ63FcGk	172.16.6.12	59463	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822225.847490	worker-04	1673822225.847490	Cj2sTy2L6ct6Ebijqd	172.16.7.12	55155	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822226.434421	worker-04	1673822226.434421	COQqHOdLIZP7dIdC4	172.16.7.11	59501	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822226.613454	worker-04	1673822226.613454	C4hzE026Dymxlrl4Kk	172.16.6.11	55053	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 1381
+dpd	forensics01	1673822226.672175	worker-04	1673822226.672175	CUk0221GZtHDo4L75g	172.16.7.14	64172	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822226.704174	worker-04	1673822226.704174	CbhhSi3koIT3mr96v	172.16.7.13	64595	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822227.587977	worker-04	1673822227.587977	C7Bq1G1bqzqbzCXWT	172.16.5.21	56116	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822227.621937	worker-04	1673822227.621937	C1MT6iEBmkvxYQJO8	172.16.6.13	61034	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822227.821554	worker-04	1673822227.821554	CZ705eb7NepeXYlqf	172.16.7.16	49496	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822227.821554	worker-04	1673822227.821554	C8gjBz1iI53mj0Fnz5	172.16.7.13	64641	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822228.024356	worker-04	1673822228.024356	CPC9Od4I9iUMNCZPJi	172.16.5.20	56605	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822228.224267	worker-04	1673822228.224267	CTzoDq3gLBTcym9L7k	172.16.7.16	49197	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822228.565553	worker-04	1673822228.565553	CuWPL02JAJGkg3l64k	172.16.7.11	59580	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822228.636289	worker-04	1673822228.636289	CRxcmA2P52IYul2vD7	172.16.7.13	49405	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822230.003125	worker-08	1673822230.003125	CrVsVn1O8HnMquC9Q7	172.16.7.13	50545	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822230.468792	worker-08	1673822230.468792	CGOwT93NunJ9Bd7tbk	172.16.5.26	58076	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822231.998615	worker-06	1673822231.998615	CTQSlw2rPGmpfFQTZi	172.16.7.13	51391	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822233.562459	worker-06	1673822233.562459	CasxAT2Ui4xrYSHOQ9	172.16.5.20	56744	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822234.420350	worker-05	1673822234.420350	CtZUbn1uToR5cqOkNl	172.16.7.13	52955	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822235.141171	worker-05	1673822235.141171	CXOmg22r0Iiroy1Hqh	172.16.7.13	53159	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.141171	worker-05	1673822235.141171	CKM7DZba3llCCdxjh	172.16.7.13	53162	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.141171	worker-05	1673822235.141171	C80JA82AeaHyRfWRo4	172.16.7.13	53167	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.141171	worker-05	1673822235.141171	CDDgvQ30V0Oj2akTx1	172.16.7.13	53171	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.141171	worker-05	1673822235.141171	CoWsmV38hacpOlsMC5	172.16.7.13	53174	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	CB61Gm1H8CGu37FMui	172.16.7.13	53165	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	Cqxhtb3zQW9cEAV8F6	172.16.7.13	53169	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	CDDgvQ30V0Oj2akTx1	172.16.7.13	53171	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	Ch9oJZ3uB17PCU6cP8	172.16.7.13	53157	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	CEO36R15uFS2Tn0Ine	172.16.7.13	53160	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	C80JA82AeaHyRfWRo4	172.16.7.13	53167	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	CB61Gm1H8CGu37FMui	172.16.7.13	53165	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	CoWsmV38hacpOlsMC5	172.16.7.13	53174	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	C8aiRXz5tilDTupL3	172.16.7.13	53173	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	CsDfq93nAiNSTuKTYh	172.16.7.13	53176	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	CXOmg22r0Iiroy1Hqh	172.16.7.13	53159	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	CKM7DZba3llCCdxjh	172.16.7.13	53162	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	C88GTD1I1cmU6M6Q46	172.16.7.13	53164	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	Cqxhtb3zQW9cEAV8F6	172.16.7.13	53169	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.215554	worker-05	1673822235.215554	CBFSv41FLRWVqMfIJ4	172.16.7.13	53168	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822235.565795	worker-05	1673822235.565795	C29GOu28EeIzG50J48	172.16.7.13	53211	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822235.998116	worker-05	1673822235.998116	CmPVul2rY3tEGXLeH7	172.16.6.13	61610	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822236.419567	worker-05	1673822236.419567	CuOrpu2BoBBajHzY32	172.16.7.11	60001	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822236.620256	worker-05	1673822236.620256	CxGlk53ycpmFFxgXu7	172.16.6.11	55535	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822236.698356	worker-05	1673822236.698356	CXN1us4PpugrAzeKLa	172.16.6.11	55538	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822236.777665	worker-05	1673822236.777665	CbMd3H1831oC8f65nc	172.16.6.15	56200	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822237.175861	worker-02	1673822237.175861	C0lqXv3P4qv0jB2ji3	172.16.7.11	60188	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 18519
+dpd	forensics01	1673822237.239673	worker-02	1673822237.239673	CSlymA4LvniXiZxSad	172.16.6.11	55711	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822237.571043	worker-02	1673822237.571043	CnDcZs8oauXZgNkdc	172.16.7.12	57259	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822237.884859	worker-02	1673822237.884859	CbUJPz4df0rHEqkbZc	172.16.7.11	60208	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 18519
+dpd	forensics01	1673822237.013505	worker-04	1673822237.013505	CPYjR4QZOI0uTfGg3	172.16.7.12	57119	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822237.144130	worker-04	1673822237.144130	C1gUZk1TysBgLbkAbj	172.16.7.13	55696	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822237.462965	worker-04	1673822237.462965	C2PM1B4WGWs64kQY3i	172.16.7.13	56337	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822237.995865	worker-04	1673822237.995865	CuYNCyvk04LwvSEFh	172.16.7.13	56787	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822237.572503	worker-05	1673822237.572503	CRAFkK1ExwprKyMz39	172.16.5.21	56396	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822237.572503	worker-05	1673822237.572503	CMfru21voj86GyqtM4	172.16.7.13	54088	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822237.672593	worker-05	1673822237.672593	CJEhjXeYhhTGqTqSh	172.16.7.13	54113	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822238.093316	worker-05	1673822238.093316	C1Z2wV1yYhYbCPNKX5	172.16.7.13	54811	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822237.989036	worker-02	1673822237.989036	CiPSKe3cI1D0PRNny9	172.16.7.13	56778	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822238.325225	worker-02	1673822238.325225	CkOrMmNVVLgSKcdwl	172.16.7.13	57238	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822238.556541	worker-02	1673822238.556541	CmfX5r2zQ8NzA4AJWb	172.16.7.13	57704	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822238.054782	worker-04	1673822238.054782	CPYb5MssZ1vyuskM5	172.16.6.13	61937	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822238.382131	worker-04	1673822238.382131	Cs6brk2PGCproQhCog	172.16.7.11	60248	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822238.488073	worker-04	1673822238.488073	Ck7BHb46b0Xyy0SaAb	172.16.6.11	55861	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 2313
+dpd	forensics01	1673822240.231390	worker-08	1673822240.231390	CMsJp91c6JFRfkSMJc	172.16.7.12	57611	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822240.329007	worker-08	1673822240.329007	CN2Q7s2ACGSG0FvPlk	172.16.6.14	64356	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822240.333738	worker-08	1673822240.333738	CvEMBj1Wcm8H5lKn33	172.16.6.14	64358	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822241.549272	worker-01	1673822241.549272	CcQvjb2iuLW9uEJLgc	172.16.7.13	58966	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822241.310918	worker-04	1673822241.310918	CMCkvl1kUKlC5zCl5k	172.16.7.16	50761	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822242.175293	worker-04	1673822242.175293	C3xVbe1aJwkGYZn3qk	172.16.7.11	60361	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822242.845384	worker-04	1673822242.845384	CTGwIk49smofcaxN8g	172.16.7.11	60382	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 51515
+dpd	forensics01	1673822243.274340	worker-01	1673822243.274340	CUetV03PMCOxSxZHyd	172.16.7.13	59409	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822242.984956	worker-03	1673822242.984956	CmgdOFnbtelvmBcX5	172.16.6.11	56032	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 65535
+dpd	forensics01	1673822246.521268	worker-05	1673822246.521268	CDGY1G2siWP9w4ieJ4	172.16.6.11	56088	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 1381
+dpd	forensics01	1673822247.293426	worker-07	1673822247.293426	Cn5Xh01wXnDEYEKlH2	172.16.7.11	60563	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 34816
+dpd	forensics01	1673822246.757945	worker-02	1673822246.757945	CZTTPR2BdgzqBrSksg	172.16.6.14	64424	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822247.158104	worker-02	1673822247.158104	CqEQPY1QxCUeMVCuY2	172.16.5.20	57266	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822246.891390	worker-08	1673822246.891390	CyTcYt3BYdQp2YehK1	172.16.7.13	60478	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822247.145229	worker-08	1673822247.145229	CKcPrv27wUGDAP2IH3	172.16.5.21	56737	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822248.124691	worker-02	1673822248.124691	C9kbdk4S2pEw02HWOh	172.16.7.13	61160	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822248.614498	worker-08	1673822248.614498	CbOXgr37IpOyPxQhJe	172.16.5.20	57307	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822248.621711	worker-02	1673822248.621711	CopORa4USO6Zj9D3Oi	172.16.7.13	61636	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822248.955339	worker-02	1673822248.955339	CIPQlAaRrPgWDYvkg	172.16.7.11	60635	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822249.065889	worker-02	1673822249.065889	CWsbti3trjeQOIL7Je	172.16.7.13	62076	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822248.998920	worker-08	1673822248.998920	CBVsyX3N78pTFKDm4f	172.16.6.11	56252	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822249.507114	worker-08	1673822249.507114	CFdRs91j4B2IaqOnB7	172.16.6.14	64539	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822249.801472	worker-08	1673822249.801472	C81Tte2i8R6lt7DMv4	172.16.7.13	62125	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822249.766580	worker-02	1673822249.766580	CRorv21oXmVGz40sWl	172.16.5.21	56816	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822250.323240	worker-02	1673822250.323240	CE1QApOTFaboHn2me	172.16.6.11	56307	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 4136
+dpd	forensics01	1673822250.527124	worker-02	1673822250.527124	CangDe4W2Cc7TkwlP9	172.16.7.11	60704	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822251.928668	worker-01	1673822251.928668	CgVSGe2g53KxqfRwU5	172.16.6.15	57117	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822251.961097	worker-01	1673822251.961097	C0R4FX1Gq6IMZtncs	172.16.6.11	56460	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822251.992505	worker-01	1673822251.992505	CmqpYK06hhJr4YQp8	172.16.7.13	64353	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822252.108959	worker-01	1673822252.108959	C85xhR2N1WHnVzFTGc	172.16.6.13	63075	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822252.317894	worker-01	1673822252.317894	CJqmTR1n5SSRnnS7Ka	172.16.7.13	64540	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822251.595804	worker-04	1673822251.595804	CTASKg2ScviESGW012	172.16.7.12	58491	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822251.697542	worker-04	1673822251.697542	CpHf1G3w0E5YsfBW9b	172.16.7.13	64046	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822251.912209	worker-04	1673822251.912209	CudJZ62DU2vBw80Fb2	172.16.7.11	60884	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822252.357471	worker-08	1673822252.357471	CjDzks36jA0OeQzf19	172.16.5.26	59111	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822252.508480	worker-08	1673822252.508480	CfYGvV2EFvGTUKnVrc	172.16.7.12	58641	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822252.418832	worker-04	1673822252.418832	C2KI1M2FjEz0XAlr27	172.16.7.13	64562	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822252.926863	worker-04	1673822252.926863	CR1gqb3BkSlHDSAUwh	172.16.6.11	56627	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 14145
+dpd	forensics01	1673822252.970513	worker-04	1673822252.970513	CHGiQn4Ias03aSZWLi	172.16.7.13	65323	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822252.905581	worker-01	1673822252.905581	CvstbyPwZ8nVSK8m8	172.16.7.11	60925	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822253.277723	worker-01	1673822253.277723	Cdqo812J9VNj7Ygbta	172.16.7.13	49385	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822261.513826	worker-01	1673822261.513826	C5C3vj40bsdEGugXNk	172.16.7.13	53703	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822262.067723	worker-01	1673822262.067723	CfTI5i17ipj43JgOf6	172.16.7.11	61308	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 256
+dpd	forensics01	1673822262.112663	worker-01	1673822262.112663	CmUNQi3AlQrfaE8SHk	172.16.6.11	57155	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 20545
+dpd	forensics01	1673822262.145708	worker-01	1673822262.145708	CVcs4827HJiOq6i5zg	172.16.7.13	54166	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822262.446918	worker-01	1673822262.446918	CZNSbw1Wbc8YDYQyJ6	172.16.7.13	54210	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822262.210201	worker-07	1673822262.210201	CwHmDK1zsZXTxUF0o8	172.16.5.20	57820	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822262.404627	worker-07	1673822262.404627	CPlOcSKWF3aJHYKyj	172.16.5.21	57250	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822262.959038	worker-07	1673822262.959038	C3A43CQ9Cx2Gph75i	172.16.6.11	57237	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822267.678057	worker-02	1673822267.678057	C8yGMMooE0KFXK23	172.16.6.11	57390	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822267.811640	worker-02	1673822267.811640	CBzDCg1DLGUAjovFs2	172.16.7.12	59884	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822267.676823	worker-05	1673822267.676823	Ci8zsT3ZJAPjWeF1Th	172.16.6.11	57382	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 2796
+dpd	forensics01	1673822267.391155	worker-03	1673822267.391155	CFoPLT2K8HbVgSpUu	172.16.7.13	55398	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822267.508471	worker-03	1673822267.508471	C6ary710DxjIQA8QWk	172.16.7.11	61448	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 15
+dpd	forensics01	1673822269.683145	worker-08	1673822269.683145	CXExIc1czqLN7SKKL4	172.16.6.13	64152	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822269.866113	worker-02	1673822269.866113	ClYNl3iGxzmqBIiQl	172.16.7.11	61534	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822269.921068	worker-02	1673822269.921068	C5LkeC3nP1sanUFkP	172.16.7.13	56593	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822269.179447	worker-06	1673822269.179447	CVrYNdeq0RkY3Qloh	172.16.6.13	64110	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822269.542700	worker-05	1673822269.542700	C2yMyy2tHFmp3Ns5W7	172.16.7.13	56148	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822270.155584	worker-05	1673822270.155584	CZv6fc2qKBq8cMmA35	172.16.5.26	59742	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822270.675299	worker-08	1673822270.675299	CuRBzd4cer6Os9mXVj	172.16.7.11	61667	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822269.847969	worker-04	1673822269.847969	CcJa1W18aV5pfr6BSg	172.16.7.11	61530	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 15
+dpd	forensics01	1673822269.865336	worker-04	1673822269.865336	CWvFfr5bqtZKXuk6g	172.16.6.11	57542	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822270.137623	worker-04	1673822270.137623	CoiGnLMVJOMBlfC9l	172.16.7.13	57030	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822270.701845	worker-02	1673822270.701845	CsglP91UVmMSLtGa32	172.16.7.12	60162	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822270.256174	worker-06	1673822270.256174	CvjABE2IIfGQfi4EVe	172.16.7.13	57042	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822270.727310	worker-05	1673822270.727310	C30TuY2BdluuwViKyd	172.16.7.13	57487	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822270.763883	worker-08	1673822270.763883	CB1rwF3mQtE8OfSOFd	172.16.6.15	57970	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822271.063425	worker-08	1673822271.063425	ClAS7N1FbHdZPBnNS8	172.16.7.13	57578	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822271.168299	worker-08	1673822271.168299	C6uYgi3bGuXoTiNZbb	172.16.6.11	57725	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822271.168299	worker-08	1673822271.168299	C6uYgi3bGuXoTiNZbb	172.16.6.11	57725	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822271.479663	worker-04	1673822271.479663	CIXPiq3pzlRddfvVqd	172.16.7.13	58421	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822271.446644	worker-02	1673822271.446644	COb3Vy29IvX5O3AVDd	172.16.6.11	57791	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 29556
+dpd	forensics01	1673822271.444136	worker-06	1673822271.444136	CEbDTEqRC6imaKMC4	172.16.7.11	61747	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 11
+dpd	forensics01	1673822272.236156	worker-05	1673822272.236156	CN48T2yh0ocUBBPNh	172.16.5.21	57553	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822271.909267	worker-07	1673822271.909267	CNYfQH1Mb3NgzlmS7	172.16.7.13	58692	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822272.234716	worker-02	1673822272.234716	C4kBVb1Q1rzF5eSked	172.16.6.11	57874	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 7804
+dpd	forensics01	1673822272.860150	worker-06	1673822272.860150	CczCsArUSUXBBv6md	172.16.6.16	57839	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822273.253648	worker-05	1673822273.253648	CU7qn01lHkrfViCb58	172.16.7.12	60542	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822273.035827	worker-02	1673822273.035827	CzhBPJ1q8JyhWXm532	172.16.7.13	59582	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822273.311697	worker-02	1673822273.311697	C2feD3oqXpjfHt6n2	172.16.7.11	61808	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 51515
+dpd	forensics01	1673822273.408964	worker-02	1673822273.408964	CjicwJ2wCR4rFeCl6d	172.16.7.16	53305	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822273.878768	worker-05	1673822273.878768	CSPGdp3qWhUzDVRNFj	172.16.7.13	60325	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822274.233208	worker-05	1673822274.233208	CyD45K1nZfWGA0v0R5	172.16.6.14	49252	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822274.236670	worker-05	1673822274.236670	CoxHpb1t7pMJgd1Ssc	172.16.5.26	60058	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822274.425341	worker-02	1673822274.425341	CCXJEK3GQcIDgQqrud	172.16.7.11	61934	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 11
+dpd	forensics01	1673822274.559758	worker-02	1673822274.559758	C1negs3Lqlf9yRwVpa	172.16.7.11	61937	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822274.296371	worker-05	1673822274.296371	CKH6L04gsiCgH9qQZ6	172.16.6.11	58149	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 121
+dpd	forensics01	1673822274.353866	worker-05	1673822274.353866	CXs3yBtDTONACY9A9	172.16.7.11	61938	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822274.353866	worker-05	1673822274.353866	CXs3yBtDTONACY9A9	172.16.7.11	61938	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822274.376691	worker-05	1673822274.376691	CzpJCr4ts6MU7RvOFa	172.16.7.13	60770	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822275.120381	worker-05	1673822275.120381	C94Xw42NL5HuAmLkvh	172.16.6.12	62914	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822275.120381	worker-05	1673822275.120381	CQrFvD1ZcmiGxvIcmb	172.16.7.13	61220	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822275.761110	worker-02	1673822275.761110	CvVrLE455ruCgBfn56	172.16.6.11	58203	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822275.797829	worker-02	1673822275.797829	CO2OOU2K21JJ2gVU8l	172.16.6.11	58211	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 20588
+dpd	forensics01	1673822275.883871	worker-02	1673822275.883871	C3Yd8s3N3EFHzTUFql	172.16.7.13	61401	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822275.486386	worker-05	1673822275.486386	CctHWb3HRKOLvrW0Z6	172.16.7.11	62021	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 111
+dpd	forensics01	1673822276.209426	worker-02	1673822276.209426	CYfky6ASdTxnKBLDk	172.16.7.14	50606	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822276.257976	worker-02	1673822276.257976	CBBYag3RBNu6tIxSyl	172.16.7.12	60893	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822277.937151	worker-03	1673822277.937151	CfGCNx4hI59phnopx5	172.16.7.11	62176	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822277.937151	worker-03	1673822277.937151	CguQPr2Ui8turgqQZg	172.16.7.13	63967	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822278.212160	worker-03	1673822278.212160	CFNymA3SbqJwHsabtb	172.16.7.13	64387	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822278.002343	worker-01	1673822278.002343	CXMncs16mEiOxqqfYa	172.16.6.11	58541	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 2313
+dpd	forensics01	1673822278.519895	worker-01	1673822278.519895	CYq5R02pL6h18RoRV4	172.16.6.14	49654	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822280.055521	worker-08	1673822280.055521	CO5yFpBDtkCW2wOM7	172.16.5.26	60530	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822281.229806	worker-07	1673822281.229806	CkA8AL3Wluk7i0wBJk	172.16.7.13	49159	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822280.953671	worker-08	1673822280.953671	CMxQ4C1KBUFfZYxFx5	172.16.7.11	62330	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822282.107039	worker-08	1673822282.107039	Cyfoln9GWjDA9JSo3	172.16.6.13	65296	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822282.627937	worker-08	1673822282.627937	CSDesS1y8DTnBLy9D4	172.16.6.15	58727	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822283.161030	worker-08	1673822283.161030	CynWF73qvaV37R7h32	172.16.7.11	62351	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 51515
+dpd	forensics01	1673822283.203104	worker-08	1673822283.203104	CR2M6o3mzQCjvROjza	172.16.6.11	58702	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822284.983396	worker-02	1673822284.983396	CwbddR1JuP8qNc5tg2	172.16.7.13	49794	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822285.084082	worker-02	1673822285.084082	C4UeRD324DT9UV32ja	172.16.6.13	65372	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822285.446299	worker-02	1673822285.446299	CxS1Ym3BHCsPXUOVOk	172.16.7.11	62370	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822285.861160	worker-02	1673822285.861160	C7J0d51z1tBtiMnqGj	172.16.7.11	62386	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 10016
+dpd	forensics01	1673822285.907783	worker-02	1673822285.907783	CitA3V3LG4oeGjcm9	172.16.6.11	58807	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822285.961947	worker-02	1673822285.961947	CS6JT74gajjUhXelmk	172.16.7.13	50242	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822286.860121	worker-02	1673822286.860121	CqLY8vUOhWRXy7jM4	172.16.7.13	50686	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822287.534642	worker-03	1673822287.534642	CiFHPI1tas8tQtjQ8f	172.16.6.14	49921	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822287.914337	worker-03	1673822287.914337	CsVqJX2NFuVnV77Knk	172.16.7.11	62734	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822288.148488	worker-03	1673822288.148488	CpXoct3KZlCuJURTy9	172.16.7.12	62108	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822288.372225	worker-04	1673822288.372225	C3qAE04xjRcXKAqtKc	172.16.6.13	49490	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822288.372225	worker-04	1673822288.372225	C3qAE04xjRcXKAqtKc	172.16.6.13	49490	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822292.618566	worker-05	1673822292.618566	CCqEov2mlJHS5qEPsl	172.16.7.13	53958	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822294.479614	worker-05	1673822294.479614	Cw4mKB1ZxkltvN3D26	172.16.6.14	50008	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822294.483038	worker-05	1673822294.483038	Cw4mKB1ZxkltvN3D26	172.16.6.14	50008	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822294.667495	worker-06	1673822294.667495	CaMGDYIt2zpiIwUqi	172.16.6.11	59301	172.16.4.10	8080	tcp	HTTP	not a http request line
+dpd	forensics01	1673822294.768495	worker-06	1673822294.768495	CGw1qA4WNf8Lyadu27	172.16.6.12	64086	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822295.305163	worker-01	1673822295.305163	CXXjPU2M5FOlEhQOs9	172.16.6.11	59318	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822295.335246	worker-05	1673822295.335246	CkQbyU1f0iT5kYLjcf	172.16.7.11	62801	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822295.690115	worker-02	1673822295.690115	Ciqv122yYckJSTUZDh	172.16.7.13	54813	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822297.769445	worker-02	1673822297.769445	CfgTWjDDm2xIdbEe1	172.16.7.14	51570	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822297.558639	worker-04	1673822297.558639	CtFBiT2JAhFeBRCg86	172.16.6.13	49721	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822297.931036	worker-04	1673822297.931036	CbJjnS1R5FmqJvkpa	172.16.5.20	58876	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822297.727236	worker-06	1673822297.727236	Cqt20t4zTGAwyGJLYb	172.16.7.13	55059	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822297.977905	worker-06	1673822297.977905	CcAApH30RagBI9voT9	172.16.7.12	62499	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822298.075716	worker-02	1673822298.075716	CV75Zi1Tw488KxpkVf	172.16.7.16	55013	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822299.034780	worker-04	1673822299.034780	CtfXuGNtIrioK2mak	172.16.7.11	62886	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822299.113579	worker-01	1673822299.113579	Cwzihs1QJHNWyWAbL7	172.16.7.13	55501	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822299.484237	worker-01	1673822299.484237	CMYcjaTCw1HYc6v2	172.16.7.11	62952	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822299.022949	worker-05	1673822299.022949	CD0ZyI90HSyyiAv2l	172.16.6.11	59423	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 11849
+dpd	forensics01	1673822299.371196	worker-05	1673822299.371196	CDxMak1d90VEeCc5jf	172.16.5.21	58262	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822299.540611	worker-05	1673822299.540611	CSisos3wojKZs5xNN2	172.16.6.11	59512	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822299.557385	worker-04	1673822299.557385	CHCXOc3GiLu2AMaay5	172.16.7.13	55544	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822304.852494	worker-03	1673822304.852494	CavDa94l4owbCJKc5g	172.16.7.13	56820	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822305.265390	worker-07	1673822305.265390	CO7x133uJTqqINsiUc	172.16.6.11	59687	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822305.323159	worker-07	1673822305.323159	C6Fglw3saU29FuwoC4	172.16.7.11	63005	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822305.701719	worker-07	1673822305.701719	CxrRTc3Tqlmmt7G3sc	172.16.7.13	57253	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822306.884603	worker-03	1673822306.884603	CYQC1D4MGxYmUj6Bki	172.16.5.26	61179	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822307.260744	worker-01	1673822307.260744	Cp1QVhAGUBUbjxZ3h	172.16.6.14	50202	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822307.728043	worker-03	1673822307.728043	CqvUgj4MdFChnmNZtj	172.16.7.11	63097	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822308.098340	worker-03	1673822308.098340	CgSFfQ23k1zc52pCCj	172.16.7.12	63032	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822308.155965	worker-06	1673822308.155965	CdsZDk2Sr396nMtT5k	172.16.7.13	58328	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822308.266558	worker-06	1673822308.266558	CFaeYhfNmaaCYZ8Tg	172.16.6.13	50267	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822307.461271	worker-01	1673822307.461271	Cf3DZo31Cu5d3bC9Xb	172.16.7.13	57837	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822307.722762	worker-01	1673822307.722762	CNwZf32Hwwr3Eo1zo9	172.16.6.11	59765	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822307.766356	worker-01	1673822307.766356	CQZJnF1PFQia9pAi66	172.16.7.13	58282	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822310.382442	worker-05	1673822310.382442	CdADxLEctiz6TpgM2	172.16.7.13	59629	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822310.901913	worker-05	1673822310.901913	C7yLUU3RZwAOomg4Oi	172.16.5.21	58490	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822311.290086	worker-05	1673822311.290086	CZuDzt4Yssa458zy69	172.16.7.11	63223	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822311.494892	worker-05	1673822311.494892	CGL4ki342VNZwE0twe	172.16.7.13	60074	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822312.128348	worker-05	1673822312.128348	CWSDTy1MXOU42YmpZ8	172.16.5.20	59182	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822312.179761	worker-05	1673822312.179761	CY8sJr1AIiV8d6yvh1	172.16.6.16	59345	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822312.255129	worker-05	1673822312.255129	Cf2cUk3ifFH9qBAmd6	172.16.6.11	59963	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822312.255129	worker-05	1673822312.255129	CQ4dlY2qfbWqYBrZ7d	172.16.7.16	55737	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822312.255129	worker-05	1673822312.255129	C9KBzX1oC7v4NJJXVc	172.16.7.11	63251	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822312.302176	worker-05	1673822312.302176	C7HFGq3DOhlUOsnNdb	172.16.7.13	60522	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822312.840447	worker-05	1673822312.840447	CXYWLm43yEcuC5GN8b	172.16.6.14	50388	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822312.896844	worker-05	1673822312.896844	Cajroz3XO1WkXOKgKj	172.16.7.13	60961	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822315.048663	worker-05	1673822315.048663	CJpVDk1A8R6RFz6zac	172.16.6.11	60118	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822315.097684	worker-05	1673822315.097684	CymTpUhtcpA3H0gRg	172.16.7.11	63299	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 266
+dpd	forensics01	1673822317.934494	worker-06	1673822317.934494	CpbAkz262YrMyWA8e9	172.16.5.21	58770	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822318.445086	worker-01	1673822318.445086	CFfQuI20L2m2a1Hnv2	172.16.7.11	63617	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822319.383121	worker-06	1673822319.383121	C78ic441S8Fm1TRHV4	172.16.7.13	64685	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822321.361629	worker-01	1673822321.361629	CwJczt1zNCTZ7Hql7b	172.16.7.14	52517	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822321.520016	worker-02	1673822321.520016	C4JToP6ujk7lIA6Q9	172.16.7.13	64749	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822321.221639	worker-04	1673822321.221639	CUXBKC3gawBwR54jga	172.16.7.11	63635	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 15
+dpd	forensics01	1673822322.514139	worker-02	1673822322.514139	CLN51eZldAWRvHzX7	172.16.7.12	64508	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822323.068131	worker-08	1673822323.068131	CA9ljh3F7P1ajPCMg	172.16.7.13	65208	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822323.066194	worker-05	1673822323.066194	CqRaKR11EmRYJClpyi	172.16.7.13	65212	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822323.276763	worker-05	1673822323.276763	CmeZKXnDzG2umGnF4	172.16.6.11	60597	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822323.412522	worker-05	1673822323.412522	CXuiFM2hV3w46CNB29	172.16.7.15	62238	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822323.105783	worker-01	1673822323.105783	CMkt7y1bujBld5HWj1	172.16.6.11	60576	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822323.296217	worker-01	1673822323.296217	CJQjPBrNbcraOXcse	172.16.7.13	65240	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822323.497604	worker-04	1673822323.497604	C06M4E1FfXJgHZ4Wpf	172.16.5.21	58845	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822323.460836	worker-08	1673822323.460836	CYyuTD1uN9DECWvbx5	172.16.6.11	60661	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822323.609706	worker-08	1673822323.609706	Ch1hYL1yIPMmJizMW3	172.16.5.26	61743	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822324.531536	worker-08	1673822324.531536	CkQgO42NgpHFndXrDa	172.16.6.14	50957	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822324.971905	worker-08	1673822324.971905	CAMZ6MwGasiOPchO8	172.16.7.13	50439	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822325.118596	worker-08	1673822325.118596	C4Vk0Rkny6zQrYtld	172.16.7.12	65097	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822325.919681	worker-08	1673822325.919681	C7NQe3TQJ40qVpmoj	172.16.6.11	60769	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822325.935469	worker-08	1673822325.935469	CXehc294KP7Qdw6N7	172.16.7.11	63837	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822325.997254	worker-08	1673822325.997254	CHiVot3PhkZwthbsz6	172.16.7.13	51019	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822327.104935	worker-08	1673822327.104935	Cm3JWM3fxMfl3fKFUl	172.16.7.13	51079	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822327.459316	worker-08	1673822327.459316	CkUfMt2ORnbDe4Pvr2	172.16.6.13	51460	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822328.511062	worker-08	1673822328.511062	CQzWyt1mJg7I6uGSKg	172.16.6.11	60894	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 20015
+dpd	forensics01	1673822328.533172	worker-08	1673822328.533172	ChvcW82mGhEKAMjeQ1	172.16.7.11	63916	172.16.4.10	8080	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 0
+dpd	forensics01	1673822328.800242	worker-08	1673822328.800242	C8YhoL2LLveHS6DmH6	172.16.7.13	51651	172.16.4.6	6577	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+dpd	forensics01	1673822328.910460	worker-08	1673822328.910460	Cn6nx742fyKsKgBlIa	172.16.5.20	59642	172.16.4.4	49670	tcp	GSSAPI	Binpac exception: binpac exception: out_of_bound: ASN1EncodingMeta:more_len: 129 > 74
+#close	2023-01-16-10-00-00

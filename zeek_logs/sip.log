@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	sip
+#open	2023-01-16-09-27-01
+#fields	_path	_system_name	_write_ts	_node	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	uri	date	request_from	request_to	response_from	response_to	reply_to	call_id	seq	subject	request_path	response_path	user_agent	status_code	status_msg	warning	request_body_len	response_body_len	content_type
+#types	string	string	time	string	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	string	string	string	string	vector[string]	vector[string]	string	count	string	string	count	count	string
+sip	forensics01	1673821621.251163	worker-05	1673821561.251193	CtDbg118RlIqb3llZi	212.83.162.62	5065	144.121.9.222	5060	0	OPTIONS	sip:100@144.121.9.222	-	"sipvicious"<sip:100@1.1.1.1>	"sipvicious"<sip:100@1.1.1.1>	-	-	-	1018906447348571045024050	1 OPTIONS	-	SIP/2.0/UDP 212.83.162.62:5065	(empty)	friendly-scanner	-	-	-	0	-	-
+#close	2023-01-16-10-00-00
